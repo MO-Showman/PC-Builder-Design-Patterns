@@ -46,7 +46,7 @@ classDiagram
     +constructPC() void
   }
 
-  %% Relationships Corrected
+  %% Relationships
   PCBuilder <|.. GamingPCBuilder : Implements
   PCBuilder <|.. OfficePCBuilder : Implements
   GamingPCBuilder --> PC : Creates
