@@ -1,8 +1,3 @@
-# PC Builder System - UML Class Diagram
-
-This diagram strictly follows the Builder Design Pattern structure as referenced in standard Java Design Patterns literature.
-
-```mermaid
 classDiagram
   class PC {
     -String cpu
@@ -51,7 +46,7 @@ classDiagram
     +constructPC() void
   }
 
-  %% Relationships
+  %% Relationships Corrected
   PCBuilder <|.. GamingPCBuilder : Implements
   PCBuilder <|.. OfficePCBuilder : Implements
   GamingPCBuilder --> PC : Creates
