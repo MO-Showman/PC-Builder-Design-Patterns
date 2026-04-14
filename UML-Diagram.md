@@ -1,3 +1,6 @@
+# PC Builder System - UML Class Diagram
+
+```mermaid
 classDiagram
   class PC {
     -String cpu
