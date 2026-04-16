@@ -26,7 +26,7 @@ public class OfficePCBuilder implements PCBuilder {
     
     @Override
     public void buildStorage() {
-        pc.setStorage("512GB NVMe SSD"); 
+        pc.setStorage("512GB NVMe SSD."); 
     }
 
     @Override
