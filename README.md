@@ -11,13 +11,11 @@ In e-commerce systems for customizing personal computers (PCs), building a `PC` 
 ## 🛠️ The Solution (Builder Pattern)
 To solve this complexity, we implemented the **Builder Design Pattern**. It separates the construction of a complex `PC` object from its representation, allowing the same construction process to create different representations (e.g., `GamingPC`, `OfficePC`).
 
-## 📂 Deliverables & Project Structure
-This repository contains all the required deliverables for Case 1:
-- **[C2] Problem Analysis & Trade-offs:** Detailed in the documentation.
-- **[C2] Pattern Selection & Justification:** Explaining why Builder is better than Abstract Factory for this specific case.
-- **[C2] UML Diagrams:** Visual representation of the system structure.
-- **[C2] Source Code:** Java/C# implementation of the pattern.
-- **[C1] Project Management:** Task tracking via GitHub Project Board.
+## 📂 Project Deliverables
+- 📝 **[Problem Analysis & Trade-offs](./Problem-Analysis-Report.md)**
+- 🎯 **[Pattern Selection & Justification](./Pattern-Justification.md)**
+- 📊 **[UML Class Diagram](./UML-Diagram.md)**
+- 💻 **[Source Code Implementation](./src/)**
 
 ## 👨‍💻 Author
 - **Name:** [Mohammad shoman]
