@@ -16,6 +16,7 @@ To solve this complexity, we implemented the **Builder Design Pattern**. It sepa
 - 🎯 **[Pattern Selection & Justification](./Pattern-Justification.md)**
 - 📊 **[UML Class Diagram](./UML-Diagram.md)**
 - 💻 **[Source Code Implementation](./src/)**
+- 📄 **[Presentation Slides (PDF)](./presentation-slides.pdf)**
 
 ## 👨‍💻 Author
 - **Name:** [Mohammad shoman]
