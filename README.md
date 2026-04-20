@@ -18,7 +18,9 @@ To solve this complexity, we implemented the **Builder Design Pattern**. It sepa
 - 💻 **[Source Code Implementation](./src/)**
 - 📄 **[Presentation Slides (PDF)](./presentation-slides.pdf)**
 - 🎬 **[Presentation Video (Watch Here)](https://drive.google.com/file/d/1ljVbDAuoO7JISB93vZlVU_Hu1unbpTd1/view?usp=sharing)**
-
+- 📋 **[Project Management Board (Kanban)](https://github.com/users/MO-Showman/projects/2)**
 ## 👨‍💻 Author
-- **Name:** [Mohammad shoman]
+- **Name:** [Mohammad shoman
+- Ibrahim Al-Balawi
+- Ahmed Al-Ajmi]
 - **Role:** Full Project Implementation & Design
