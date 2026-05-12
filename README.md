@@ -1,25 +1,47 @@
-# 🎵 Spotify Playlist System - Design Patterns Project
+# 🖥️ PC Builder System - Design Patterns Project
+
+
 
 ## 📌 Project Overview
-This project is developed as part of the **Design Patterns Course (Case 2)**. The main objective is to analyze a real-world software problem, compare design approaches, and implement a suitable design pattern. 
 
-**Selected Pattern:** Composite Pattern (Structural)
+This project is developed as part of the **Design Patterns Course (Case 1)**. The main objective is to analyze a real-world software problem, compare design approaches, and implement a suitable design pattern. 
+
+
+
+**Selected Pattern:** Builder Pattern (Creational)
+
+
 
 ## 🎯 The Real-World Problem
-In modern music applications like Spotify, creating a playlist system involves complex hierarchical data structures. A `Playlist` can contain individual `Song` objects, but it can also contain nested `Playlist` folders (e.g., a "Favorites" folder containing "Rock" and "Pop" playlists). Without a proper design pattern, executing an action like `play()` requires complex type-checking and `if-else` statements to differentiate between a single song and a playlist folder, making the code rigid and hard to maintain.
 
-## 🛠️ The Solution (Composite Pattern)
-To solve this structural complexity, we implemented the **Composite Design Pattern**. It composes objects into tree structures to represent part-whole hierarchies. By providing a unified `Playable` interface, the pattern allows the client code to treat individual objects (`Song`) and compositions of objects (`Playlist`) uniformly. This eliminates the need for type-checking and makes the system highly scalable.
+In e-commerce systems for customizing personal computers (PCs), building a `PC` object is highly complex. A PC consists of mandatory components (CPU, Motherboard, RAM) and optional components (Liquid Cooling, RGB Lighting, extra Storage). Using a standard constructor leads to the **Telescoping Constructor Anti-Pattern**, making the code hard to read, scale, and maintain.
+
+
+
+## 🛠️ The Solution (Builder Pattern)
+
+To solve this complexity, we implemented the **Builder Design Pattern**. It separates the construction of a complex `PC` object from its representation, allowing the same construction process to create different representations (e.g., `GamingPC`, `OfficePC`).
+
+
 
 ## 📂 Project Deliverables
-- 📝 **[Problem Analysis & Trade-offs](#)**
-- 🎯 **[Pattern Selection & Justification](#)**
-- 📊 **[UML Class Diagram](#)**
-- 💻 **[Source Code Implementation](#)**
-- 📄 **[Presentation Slides (PDF)](#)**
-- 🎬 **[Presentation Video (Watch Here)](#)**
-- 📋 **[Project Management Board (Kanban)](#)**
 
-## 👨‍💻 Authors
-- **Names:** [ Mohammad shoman , Ibrahim Al-Balawi ,Ahmed Al-Ajmi ]
+- 📝 **[Problem Analysis & Trade-offs](./Problem-Analysis-Report.md)**
+
+- 🎯 **[Pattern Selection & Justification](./Pattern-Justification.md)**
+
+- 📊 **[UML Class Diagram](./UML-Diagram.md)**
+
+- 💻 **[Source Code Implementation](./src/)**
+
+- 📄 **[Presentation Slides (PDF)](./presentation-slides.pdf)**
+
+- 🎬 **[Presentation Video (Watch Here)](https://drive.google.com/file/d/1ljVbDAuoO7JISB93vZlVU_Hu1unbpTd1/view?usp=sharing)**
+
+- 📋 **[Project Management Board (Kanban)](https://github.com/users/MO-Showman/projects/2)**
+
+## 👨‍💻 Author
+
+- **Names:** [ Mohammad shoman , Ibrahim Al-Balawi ,Ahmed Al-Ajmi]
+
 - **Role:** Full Project Implementation & Design
